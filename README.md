@@ -3,7 +3,6 @@
 ### Task Status Emojis
 - **Not Started**: ⏳ 🟡 🚧 📋
 - **In Progress**: 🔄 🚀 🟠 ⚙️
-- **Under Review**: 🔍 📝 🟣 🤔
 - **Completed**: ✅ 🟢 🎉 ✨
 - **Blocked**: ⛔ 🚫 🔴 🛑
 - **Optional**: 💡 🟦 🤷‍♂️
