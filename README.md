@@ -48,6 +48,8 @@
 
 ---
 
+✅ 🟢 🎉 ✨
+
 ## 3. Set Up Development Tools 🛠️
 
 - **Install and configure ESLint and Prettier**:
