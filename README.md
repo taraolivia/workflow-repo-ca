@@ -48,7 +48,7 @@ This repository contains the setup for testing, development tools, and CI/CD wor
 
 ## ⚙️ Environment Variables
 
-Create a `.env` file in the root directory and define the following variables:
+The following variables are located in the `.env` file in the root directory:
 
 | Variable Name        | Description                                                       |
 | -------------------- | ----------------------------------------------------------------- |
