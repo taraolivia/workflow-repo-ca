@@ -60,6 +60,32 @@
 
 ---
 
+---
+
+🔄 🚀 🟠 ⚙️
+
+##Extra: CI/CD 🛠️
+
+- **Creating Your First GitHub Action**:
+  ✅
+  - First, create this folder structure in your repository:
+    .github/
+    workflows/
+    deploy.yml
+    -Add code to deploy.yml
+- **Setting Up GitHub Pages**:
+  Go to your repository settings
+  Scroll down to “Pages”
+  Under “Build and deployment”:
+  Source: Choose “GitHub Actions”
+- **Testing Your Workflow**:
+  Go to your repository settings
+  Scroll down to “Pages”
+  Under “Build and deployment”:
+  Source: Choose “GitHub Actions”
+
+---
+
 ## 4. Set Up Testing Tools 🧪
 
 ### Unit Testing: Configure Vitest
