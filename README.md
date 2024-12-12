@@ -96,9 +96,9 @@ I think this doesnt work since I made it in the workflow branch
     - Returns the name from the user object in storage (first save a user object to storage).
     - Returns `null` when no user exists in storage.
 
-### End-to-End Testing: Configure Playwright
+### End-to-End Testing: Configure Playwright 🔄 🚀 🟠 ⚙️
 
-- Install and configure **Playwright** for e2e testing.
+- Install and configure **Playwright** for e2e testing. ✅
 - Test these cases:
 
   #### Login
