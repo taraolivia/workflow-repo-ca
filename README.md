@@ -10,23 +10,6 @@
 
 ---
 
-### General Status Emojis
-
-- **Setup**: 🛠️ ⚒️ 🔧 🏗️
-- **Testing**: 🧪 🔬 🩺 ✅
-- **Documentation**: 📝 📖 🗒️ 🗂️
-- **Deployment**: 🚀 🌍 🛳️
-- **Review**: 👀 ✅ 🔍
-
----
-
-### Contextual Project Emojis
-
-- **Code-related**: 💻 📂 📜 🧑‍💻
-- **Git-related**: 🍴 🔀 🔄 🔃
-- **Environment/Config**: ⚙️ 🛠️ 🗂️ 📝
-- **Bugs/Errors**: 🐛 ❌ 🔴 🛑
-
 # To-Do List 📝
 
 ✅ 🟢 🎉 ✨
@@ -63,8 +46,12 @@
 ---
 
 🔄 🚀 🟠 ⚙️
+⛔ 🚫 🔴 🛑
+💡 🟦 🤷‍♂️
 
 ##Extra: CI/CD 🛠️
+
+I think this doesnt work since I made it in the workflow branch
 
 - **Creating Your First GitHub Action**:
   ✅
@@ -86,14 +73,17 @@
 
 ---
 
+🔄 🚀 🟠 ⚙️
+
 ## 4. Set Up Testing Tools 🧪
 
 ### Unit Testing: Configure Vitest
 
-- Install and configure **Vitest** for unit testing.
+- Install and configure **Vitest** for unit testing. ✅
+
 - Test these cases:
 
-  #### `isActivePath` Function
+  #### `isActivePath` Function 🔄 🚀 🟠 ⚙️
 
   1. Returns `true` when the current path matches `href` exactly.
   2. Returns `true` for the root path (`"/"`) when the path is `"/"` or `"/index.html"`.
@@ -119,8 +109,8 @@
 
   **Important:**
 
-  - Add `.env` to the `.gitignore`.
-  - Include an `.env.example` file in the branch.
+  - Add `.env` to the `.gitignore`. ✅
+  - Include an `.env.example` file in the branch. ✅
 
   #### Navigation
 
