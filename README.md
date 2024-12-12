@@ -83,14 +83,14 @@ I think this doesnt work since I made it in the workflow branch
 
 - Test these cases:
 
-  #### `isActivePath` Function 🔄 🚀 🟠 ⚙️
+  #### `isActivePath` Function ✅ 🟢 🎉 ✨
 
   1. Returns `true` when the current path matches `href` exactly.
   2. Returns `true` for the root path (`"/"`) when the path is `"/"` or `"/index.html"`.
   3. Returns `true` when the current path includes the `href`.
   4. Returns `false` when paths don't match.
 
-  #### `getUserName` Function
+  #### `getUserName` Function ✅ 🟢 🎉 ✨
 
   - Test that it:
     - Returns the name from the user object in storage (first save a user object to storage).
