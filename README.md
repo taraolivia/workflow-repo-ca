@@ -112,7 +112,7 @@ I think this doesnt work since I made it in the workflow branch
   - Add `.env` to the `.gitignore`. ✅
   - Include an `.env.example` file in the branch. ✅
 
-  #### Navigation
+  #### Navigation ✅ 🟢 🎉 ✨
 
   - Write a test that:
     1. Navigates to the home page.
