@@ -1,12 +1,13 @@
 import { test, expect } from "@playwright/test";
 import dotenv from "dotenv";
+
 dotenv.config();
 
 test.describe("login", () => {
   test("User can successfully log in with valid credentials from environment variables", async ({
     page,
   }) => {
-    await page.goto("/auth/login");
+    await page.goto("/login"); // Relative path works because baseURL is set
 
     await page.locator('input[name="email"]').fill(process.env.TEST_USER_EMAIL);
     await page
@@ -17,10 +18,11 @@ test.describe("login", () => {
 
     await expect(page.getByRole("button", { name: "Logout" })).toBeVisible();
   });
+
   test("User sees an error message with invalid credentials.", async ({
     page,
   }) => {
-    await page.goto("/auth/login");
+    await page.goto("/login");
 
     await page.locator('input[name="email"]').fill(process.env.TEST_USER_EMAIL);
     await page.locator('input[name="password"]').fill("jdjakakalal");

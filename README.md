@@ -101,7 +101,7 @@ I think this doesnt work since I made it in the workflow branch
 - Install and configure **Playwright** for e2e testing. ✅
 - Test these cases:
 
-  #### Login
+  #### Login ✅ 🟢 🎉 ✨
 
   - User can successfully log in with valid credentials from environment variables.
     - If the login details from the lesson do not work, you can create a new user by running the project and using the register form.

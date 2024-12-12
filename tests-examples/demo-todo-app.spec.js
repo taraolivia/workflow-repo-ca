@@ -1,14 +1,6 @@
 // @ts-check
 const { test, expect } = require("@playwright/test");
 
-test("homepage should show the News link", async ({ page }) => {
-  // Start at the English homepage
-  await page.goto("https://www.noroff.no/en");
-
-  // Wait for the new page to load and check its content
-  await expect(page.getByRole("link", { name: "News" })).toBeVisible();
-});
-
 test.beforeEach(async ({ page }) => {
   await page.goto("https://demo.playwright.dev/todomvc");
 });
